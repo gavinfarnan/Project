@@ -1,0 +1,79 @@
+body {
+    background-color: lightgrey;
+    margin: 0; 
+}
+
+#topbar {
+    background-color: black;
+    width: 100%;
+    height: 55px;
+}
+.fixedwidth {
+width: 1100px;
+margin:0 auto;
+}
+
+#logo {
+float: left;
+padding-right: 10px;
+padding-top: 3px;
+border-right: 1px solid lightgrey;
+background-color: white;
+}
+
+#signIn {
+border-right: 1px solid lightgrey;
+padding-right: 20px;
+float: left;
+}
+
+#signIn img {
+position: relative;
+top:3px;
+}
+
+#menuItemsDiv {
+float:left;
+color: white;
+}
+
+#menuItemsDiv ul {
+margin: 0;
+padding: 0;
+}
+#menuItemsDiv li {
+list-style: none;
+border-right: 1px solid lightgrey;
+font-size: 1.1em;
+height:100%;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+padding: 20px 20px 12px 20px;
+float: left;
+
+}
+
+
+
+a {
+color: white;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline black;
+color: grey;
+
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    font-size: larger;
+  }

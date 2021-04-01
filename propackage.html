@@ -4,85 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Full body workout from home.">
+    <meta name="keywords" content="Gym attachments, strength, at home fitness, workout, fitness, fitness package">
+    <meta name="missionStatement" content="Building your fitness foundation">
     <title>Pro Package Workout Page</title>
+    <link rel="shortcut icon" href="images/Just the logo symbol.jpg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="styles/styleAll.css" />
+
+
     <style>
-        body {
-            margin:0;
-        }
-#topbar {
-            background-color: black;
-            width: 100%;
-            height: 55px;
-        }
-.fixedwidth {
-   width: 1100px;
-   margin:0 auto;
-}
-
-#logo {
-    float: left;
-    padding-right: 10px;
-    padding-top: 3px;
-    border-right: 1px solid lightgrey;
-    background-color: white;
-}
-
-#signIn {
-    border-right: 1px solid lightgrey;
-    padding-right: 20px;
-    float: left;
-}
-
-#signIn img {
-    position: relative;
-    top:3px;
-}
-
-#menuItemsDiv {
-    float:left;
-    color: white;
-}
-
-#menuItemsDiv ul {
-    margin: 0;
-    padding: 0;
-}
-#menuItemsDiv li {
-    list-style: none;
-    border-right: 1px solid lightgrey;
-    font-size: 1.1em;
-    height:100%;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px 20px 12px 20px;
-    float: left;
-
-}
-
-#searchDiv {
-    float: left;
-    padding: 5px 0 0 10px;
-}
-
-#searchDiv input {
-    height: 25px;
-    width: 75px;
-    border: none;
-    float: left;
-    font-size: 1.2em;
-    padding-left: 5px;
-    margin-top: 7px;
-}
-
-a {
-    color: lightgrey;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline green;
-    color: grey;
-    
-}
+       
 h1 {
             text-align: center;
         }
@@ -91,13 +22,32 @@ h1 {
             margin-left: auto;
             margin-right: auto;
         }
-table {
-    width: 100%;
+
+.proPackage {
+    width:"300";
+    height:"300";
+    display: inline-block;
+   position: relative;
+   padding-left: 550px;
+    
 }
 
-th {
-    font-size: 18px;
+.proPackage .PP2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    padding-left: 545px;
+
+    
+} 
+
+.proPackage:hover .PP2{
+    display: inline;
+    transform: scale(1.05);
 }
+
     </style>
 </head>
 <body>
@@ -107,7 +57,8 @@ th {
 
             <div class="fixedwidth">
                 <div id="logo">
-                    <img src="images/transparent logo new.png" alt="FlikFitness logo" width=125; height=50/>
+                    <a href="index.html"> <img src="images/transparent logo new.png" alt="FlikFitness logo" width=125; height=50/>
+                    </a>
                 </div>
 
 
@@ -115,16 +66,14 @@ th {
                     <ul>
                         <li><a href="propackage.html">Pro Package</a></li>
                         <li><a href="chestfly.html">Chest Fly Attachment</a></li>
-                        <li><a href="#">Electric Foam Roller</a></li>
+                        <li><a href="adjustableDumbbells.html">Adjustable Dumbbells</a></li>
                         <li><a href="https://flikfitness.com/pages/contact-us">Contact Us</a></li>
                         <li><a href="sitemap.html">Sitemap</a></li>
 
                     </ul>
                 </div>
 
-                <div id="searchDiv">
-                    <input type="text" placeholder="Search"/>
-                </div> 
+               
            
             </div>
 
@@ -134,7 +83,11 @@ th {
 
     </div>
     <h1>Pro Package Workouts</h1>
-    <img id="img" src="images/HomeGym Pro Package.PNG" alt="Gif of Pro Package" width=400; height=500/>
+    <div class="proPackage">
+        <img src="images/HomeGym Pro Package.PNG" alt="Gif of Pro Package" width=400; height=500/>
+        <img src="images/Home set up testimonial.PNG" class="PP2" alt="2nd pic for hover" width=400; height=500/>
+
+    </div>
     <h1>
         Tricep Rope
     </h1>

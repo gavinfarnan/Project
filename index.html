@@ -3,99 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BBC</title>
-
+    <meta name="description" content="Home gym equipment at an affordable price.">
+    <meta name="keywords" content="Gym, crossfit, health, fitness, affordable">
+    <meta name="missionStatement" content="Building your fitness foundation">
+    <title>FlikFitness: A Fitter Future</title>
+    <link rel="shortcut icon" href="images/Just the logo symbol.jpg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="styles/styleAll.css" />
     <style>
 
-body {
-            margin:0;
-        }
-#topbar {
-            background-color: black;
-            width: 100%;
-            height: 55px;
-        }
-.fixedwidth {
-   width: 1100px;
-   margin:0 auto;
-}
 
-#logo {
-    float: left;
-    padding-right: 10px;
-    padding-top: 3px;
-    border-right: 1px solid lightgrey;
-    background-color: white;
-}
 
-#signIn {
-    border-right: 1px solid lightgrey;
-    padding-right: 20px;
-    float: left;
-}
-
-#signIn img {
-    position: relative;
-    top:3px;
-}
-
-#menuItemsDiv {
-    float:left;
-    color: white;
-}
-
-#menuItemsDiv ul {
-    margin: 0;
-    padding: 0;
-}
-#menuItemsDiv li {
-    list-style: none;
-    border-right: 1px solid lightgrey;
-    font-size: 1.1em;
-    height:100%;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px 20px 12px 20px;
-    float: left;
-
-}
-
-#searchDiv {
-    float: left;
-    padding: 5px 0 0 10px;
-}
-
-#searchDiv input {
-    height: 25px;
-    width: 75px;
-    border: none;
-    float: left;
-    font-size: 1.2em;
-    padding-left: 5px;
-    margin-top: 7px;
-}
-
-a {
-    color: lightgrey;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline green;
-    color: grey;
-    
-}
-
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
 
 tr:nth-child(even) {
   background-color: #dddddd;
@@ -113,6 +30,17 @@ h1, h2 {
     padding-bottom: 20px;
 }
 
+.thumbnail {
+    width:"300";
+    height:"300";
+    transition: transform .5s;
+}
+
+.thumbnail:hover {
+    transform: scale(1.3);
+
+}
+
     </style> 
 
 
@@ -126,7 +54,9 @@ h1, h2 {
 
             <div class="fixedwidth">
                 <div id="logo">
-                    <img src="images/transparent logo new.png" alt="FlikFitness logo" width=125; height=50/>
+                    <a href="index.html"> <img src="images/transparent logo new.png" alt="FlikFitness logo" width=125; height=50/>
+                    </a>
+                    
                 </div>
 
 
@@ -134,16 +64,14 @@ h1, h2 {
                     <ul>
                         <li><a href="propackage.html">Pro Package</a></li>
                         <li><a href="chestfly.html">Chest Fly Attachment</a></li>
-                        <li><a href="#">Electric Foam Roller</a></li>
+                        <li><a href="adjustableDumbbells.html">Adjustable Dumbbells</a></li>
                         <li><a href="https://flikfitness.com/pages/contact-us">Contact Us</a></li>
                         <li><a href="sitemap.html">Sitemap</a></li>
 
                     </ul>
                 </div>
 
-                <div id="searchDiv">
-                    <input type="text" placeholder="Search"/>
-                </div> 
+            
            
             </div>
 
@@ -164,19 +92,19 @@ h1, h2 {
         <tr>
           <td>Pro Package</td>
           <td>$149.99</td>
-          <td> <a href="https://flikfitness.com/collections/all/products/flikfitness-home-gym"> <img src="images/HomeGym Pro Package.PNG" alt="Pro Package Picture" width=250; height=400/>
+          <td> <a href="https://flikfitness.com/collections/all/products/flikfitness-home-gym"> <img class="thumbnail" src="images/HomeGym Pro Package.PNG" alt="Pro Package Picture" width=300; height=300/>
           </a></td>
         </tr>
         <tr>
           <td>Chest Fly Attachment</td>
           <td>$44.99</td>
-          <td><a href="https://flikfitness.com/collections/all/products/back-strength-blaster-exerciser-with-heavy-duty-gym-cable-handle-for-cable-machines-lat-pulldowns-bodybuilding-triceps-extension"> <img src="images/black handle chest fly attachment.PNG" alt="Chest Fly Attachment Picture" width=300; height=300/>
+          <td><a href="https://flikfitness.com/collections/all/products/back-strength-blaster-exerciser-with-heavy-duty-gym-cable-handle-for-cable-machines-lat-pulldowns-bodybuilding-triceps-extension"> <img class="thumbnail" src="images/black handle chest fly attachment.PNG" alt="Chest Fly Attachment Picture" width=300; height=300/>
         </a></td>
         </tr>
         <tr>
-          <td>Electric Foam Roller</td>
-          <td>$59.99</td>
-          <td> <a href="https://flikfitness.com/collections/all/products/flikfitness-electric-massaging-foam-roller"><img src="images/black vibrating foam roller.PNG" alt="Electric Foam Roller Picture" width=300; height=300/>
+          <td>Adjustable Dumbbells</td>
+          <td>$199.99</td>
+          <td> <a href="https://flikfitness.com/collections/all/products/flikfitness-adjustable-dumbells"><img class="thumbnail" src="images/best dumbell pic.PNG" alt="Adjustable dumbbells picture" width=300; height=300/>
         </a></td>
         </tr>
       </table>
