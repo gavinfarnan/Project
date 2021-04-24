@@ -21,32 +21,26 @@ h1 {
             display: block;
             margin-left: auto;
             margin-right: auto;
+            height: 300px;
         }
+
+#img3 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 200px;
+}
 
 .proPackage {
     width:"300";
     height:"300";
     display: inline-block;
    position: relative;
-   padding-left: 550px;
+   padding-left: 615px;
     
 }
 
-.proPackage .PP2 {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    padding-left: 545px;
 
-    
-} 
-
-.proPackage:hover .PP2{
-    display: inline;
-    transform: scale(1.05);
-}
 
     </style>
 </head>
@@ -84,8 +78,8 @@ h1 {
     </div>
     <h1>Pro Package Workouts</h1>
     <div class="proPackage">
-        <img src="images/HomeGym Pro Package.PNG" alt="Gif of Pro Package" width=400; height=500/>
-        <img src="images/Home set up testimonial.PNG" class="PP2" alt="2nd pic for hover" width=400; height=500/>
+        <a href="https://flikfitness.com/collections/all/products/flikfitness-home-gym"><img id="img1" onmouseover="setNewImage()" onmouseout="setOldImage()" 
+    src="images/HomeGym Pro Package.PNG" width="300"></a>
 
     </div>
     <h1>
@@ -127,7 +121,7 @@ Chest Fly
     <h1>
 Straight Bar
             </h1>
-            <img id="img" src="images/straight bar.PNG" alt="Straight Bar Attachment Picture" width=700; height=150/>
+            <img id="img3" src="images/straight bar.PNG" alt="Straight Bar Attachment Picture" width=700; height=150/>
         
             <table> 
                 <tr> 
@@ -142,6 +136,17 @@ Straight Bar
                     </th>
                 </tr>
             </table>
+
+            <script type="text/javascript">
+                function setNewImage() {
+                    document.getElementById("img1").src ="images/Home set up testimonial.PNG";
+                }
+        
+                function setOldImage() {
+                    document.getElementById("img1").src ="images/HomeGym Pro Package.PNG";
+        
+                }
+            </script>
 
     
 </body>
